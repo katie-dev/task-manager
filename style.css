@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+
+h1 {
+    font-size: 1.9rem
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form button,
+form input {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+form button {
+    color: rgb(193, 130, 162);
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    color: white;
+    background-color: rgb(193, 130, 162);
+}
+
